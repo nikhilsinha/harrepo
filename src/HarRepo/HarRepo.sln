@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarRepo", "HarRepo\HarRepo.csproj", "{F12FF72E-2F0E-4A04-A000-AC3E20B1A88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C7C83A38-A0D1-4341-B18D-F4E2D47F02D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarRepo.Tests", "Tests\HarRepo.Tests\HarRepo.Tests.csproj", "{C358F381-087E-4E00-8AB5-1F79AD4F689E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12FF72E-2F0E-4A04-A000-AC3E20B1A88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12FF72E-2F0E-4A04-A000-AC3E20B1A88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12FF72E-2F0E-4A04-A000-AC3E20B1A88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12FF72E-2F0E-4A04-A000-AC3E20B1A88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C358F381-087E-4E00-8AB5-1F79AD4F689E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C358F381-087E-4E00-8AB5-1F79AD4F689E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C358F381-087E-4E00-8AB5-1F79AD4F689E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C358F381-087E-4E00-8AB5-1F79AD4F689E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C358F381-087E-4E00-8AB5-1F79AD4F689E} = {C7C83A38-A0D1-4341-B18D-F4E2D47F02D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C88E07CA-A62E-46C5-AE4E-9CEDB5D586F5}
+	EndGlobalSection
+EndGlobal
