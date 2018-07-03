@@ -2,14 +2,14 @@
 
 URLs are of the format /api/har
 
-GET: /api/har/ID
-POST: /api/har
-PUT: /api/har/ID
-DELETE: /api/har/ID
+GET: /api/har/ID <br/>
+POST: /api/har <br/>
+PUT: /api/har/ID <br/>
+DELETE: /api/har/ID <br/>
 
 The other get commands:
 
-GET: /api/har/ID?query=blocked
-GET: /api/har/ID?query=bodysize
-GET: /api/har/ID?query=querystring
-GET: /api/har/ID?query=slowestpage
+GET: /api/har/ID?query=blocked <br/>
+GET: /api/har/ID?query=bodysize <br/>
+GET: /api/har/ID?query=querystring <br/>
+GET: /api/har/ID?query=slowestpage <br/>
